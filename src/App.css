@@ -8,35 +8,3 @@
     grid-template-columns: 300px 1fr;
     grid-template-rows: 60px 1fr 60px;
 }
-
-.header {
-    grid-area: header;
-    background-color: #ccc;
-}
-
-.sidebar {
-    grid-area: sidebar;
-    background-color: #ddd;
-}
-
-.main-content {
-    grid-area: main;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: #bbb;
-}
-
-.image-wrapper {
-    height: 200px;
-    width: 100%;
-    position:relative;
-}
-
-.image-wrapper img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
