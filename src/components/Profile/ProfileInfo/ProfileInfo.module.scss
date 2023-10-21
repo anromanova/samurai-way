@@ -1,0 +1,27 @@
+.imageWrapper {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  z-index:-1;
+
+  img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.user {
+  padding: 20px;
+
+  .user__image {
+
+    img {
+      z-index: 2;
+      height: 200px;
+      width: 200px;
+      margin-top: -100px;
+    }
+  }
+}
